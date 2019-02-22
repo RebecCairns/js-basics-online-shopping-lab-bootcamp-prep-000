@@ -69,7 +69,7 @@ function placeOrder(cardNumber = 0) {
   if(cardNumber === 0){
     return 'Sorry, we don\'t have a credit card on file for you.';
   }
-  if (cardNumber > 0){
-    return 'Your total cost is $6, which will be charged to the card 6 " + cardNumber;
+  if (cardNumber > 0) {
+    return "Your total cost is $6, which will be charged to the card 6 " + cardNumber;
   }
 }
