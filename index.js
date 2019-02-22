@@ -66,8 +66,7 @@ function removeFromCart(item) {
 }
 
 function placeOrder(cardNumber = 0) {
-  //var tester = cardNumber;
-  if(cardNumber === "null"){
+  if(cardNumber === 0){
     return 'Sorry, we don\'t have a credit card onfile for you.';
   }
 }
